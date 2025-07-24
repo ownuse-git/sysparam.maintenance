@@ -26,8 +26,7 @@ import jakarta.validation.constraints.NotBlank;
 @RequestMapping("/api")
 @Validated
 public class SysParamController {
-	// Testing For Different Branches
-	// switch / checkout testing for master branch and also main branch 
+	
 	@Autowired
 	private SysParamServices services;
 
