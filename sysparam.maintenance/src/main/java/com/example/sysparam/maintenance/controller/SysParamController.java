@@ -26,7 +26,7 @@ import jakarta.validation.constraints.NotBlank;
 @RequestMapping("/api")
 @Validated
 public class SysParamController {
-	// testing
+	
 	@Autowired
 	private SysParamServices services;
 
